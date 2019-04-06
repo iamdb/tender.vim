@@ -225,7 +225,7 @@ hi yamlFlowStringDelimiter      guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NON
 hi yamlKeyValueDelimiter        guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyBoolean                  guifg=#90a959 ctermfg=116  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyLocalVariableOrMethod    guifg=#ffff5f ctermfg=171  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyPseudoVariable           guifg=#ffc24b ctermfg=45 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyPseudoVariable           guifg=#ffc24b ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyBlockParameter           guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyInterpolationDelimiter   guifg=#ffc24b ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
