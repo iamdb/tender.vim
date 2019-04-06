@@ -223,11 +223,19 @@ hi javascriptFuncName           guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NON
 hi yamlFlowString               guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowStringDelimiter      guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter        guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyBoolean                  guifg=#90a959 ctermfg=116  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyLocalVariableOrMethod    guifg=#ffff5f ctermfg=249  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyPseudoVariable           guifg=#ffc24b ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyBlockParameter           guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyInterpolationDelimiter   guifg=#ffc24b ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" ruby
+hi rubyBoolean                guifg=#90a959 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyPseudoVariable         guifg=#ffc24b ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyBlockParameter         guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyInterpolationDelimiter guifg=#ffc24b ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" go
+hi goField        guifg=#ffff5f ctermfg=81  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goFunctionCall guifg=#ffff5f ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goVarDefs      guifg=#ffff5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goBoolean      guifg=#ffff5f ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
