@@ -234,6 +234,7 @@ hi rubyInterpolationDelimiter guifg=#ffc24b ctermfg=210 guibg=NONE ctermbg=NONE 
 hi goField        guifg=#ffff5f ctermfg=81  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goFunctionCall guifg=#ffff5f ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goVarDefs      guifg=#ffff5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goVarAssign    guifg=#ffff5f ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goBoolean      guifg=#ffff5f ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
