@@ -239,8 +239,8 @@ hi goVarAssign    guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cte
 
 " rust
 hi rustPanic     guifg=#c5152f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustAttribute guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustDerive    guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustAttribute guifg=#87d7d7 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustDerive    guifg=#87d7d7 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustMacro     guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustAssert    guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustSuper     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
