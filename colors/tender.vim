@@ -246,6 +246,7 @@ hi rustAssert    guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cter
 hi rustSuper     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustFuncName  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustFuncCall  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustLifetime  guifg=#0000ff ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
