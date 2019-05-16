@@ -248,6 +248,12 @@ hi rustFuncName  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cter
 hi rustFuncCall  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustLifetime  guifg=#0000ff ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
+" ale
+hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarning     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
 let g:terminal_color_0 = "#282828"
