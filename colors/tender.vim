@@ -32,10 +32,6 @@ hi LineNr                       guifg=#444444 ctermfg=238  guibg=NONE    ctermbg
 hi MatchParen                   guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=bold           cterm=bold
 hi NonText                      guifg=#444444 ctermfg=238  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi Normal                       guifg=#eeeeee ctermfg=255  guibg=#282828 ctermbg=235  gui=NONE           cterm=NONE
-hi PMenu                        guifg=#282828 ctermfg=235  guibg=#5fd7ff ctermbg=81   gui=NONE           cterm=NONE
-hi PMenuSel                     guifg=#282828 ctermfg=235  guibg=#c9d05c ctermbg=185  gui=NONE           cterm=NONE
-hi PmenuSbar                    guifg=#d3b987 ctermfg=180  guibg=#d3b987 ctermbg=180  gui=NONE           cterm=NONE
-hi PmenuThumb                   guifg=#ffc24b ctermfg=215  guibg=#ffc24b ctermbg=215  gui=NONE           cterm=NONE
 hi Question                     guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi Search                       guifg=#ffffff ctermfg=15   guibg=NONE    ctermbg=NONE gui=underline,bold cterm=underline,bold
 hi SpecialKey                   guifg=#444444 ctermfg=238  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
@@ -49,8 +45,6 @@ hi TabLine                      guifg=#999999 ctermfg=246  guibg=#444444 ctermbg
 hi TabLineFill                  guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=238  gui=NONE           cterm=NONE
 hi TabLineSel                   guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=bold           cterm=bold
 hi Title                        guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=bold           cterm=bold
-hi Visual                       guifg=NONE    ctermfg=NONE guibg=#040404 ctermbg=0    gui=NONE           cterm=NONE
-hi VisualNOS                    guifg=NONE    ctermfg=NONE guibg=#040404 ctermbg=0    gui=NONE           cterm=NONE
 hi WarningMsg                   guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi WildMenu                     guifg=#282828 ctermfg=235  guibg=#c9d05c ctermbg=185  gui=bold           cterm=bold
 hi Comment                      guifg=#666666 ctermfg=242  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
@@ -225,34 +219,44 @@ hi yamlFlowStringDelimiter      guifg=#eeeeee ctermfg=255  guibg=NONE    ctermbg
 hi yamlKeyValueDelimiter        guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 
 " ruby
-hi rubyInterpolationDelimiter guifg=#87d7d7 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyPseudoVariable         guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyBlockParameterList     guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyGlobalVariable         guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyInstanceVariable       guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyInterpolationDelimiter guifg=#87d7d7 ctermfg=116  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rubyPseudoVariable         guifg=#00afd7 ctermfg=38   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rubyBlockParameterList     guifg=#ffc24b ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rubyGlobalVariable         guifg=#c5152f ctermfg=160  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rubyInstanceVariable       guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 
 " go
-hi goField        guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi goFunctionCall guifg=#afd7ff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi goVarDefs      guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi goVarAssign    guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goField                    guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi goFunctionCall             guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi goVarDefs                  guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi goVarAssign                guifg=#ffc24b ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 
 " rust
-hi rustPanic     guifg=#c5152f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustAttribute guifg=#87d7d7 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustDerive    guifg=#87d7d7 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustMacro     guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustAssert    guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustSuper     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustFuncName  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustFuncCall  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustLifetime  guifg=#0000ff ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustPanic                  guifg=#c5152f ctermfg=161  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustAttribute              guifg=#87d7d7 ctermfg=116  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustDerive                 guifg=#87d7d7 ctermfg=116  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustMacro                  guifg=#ffc24b ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustAssert                 guifg=#ffc24b ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustSuper                  guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustFuncName               guifg=#00afd7 ctermfg=38   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustFuncCall               guifg=#00afd7 ctermfg=38   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rustLifetime               guifg=#0000ff ctermfg=220  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 
 " ale
-hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEWarning     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEWarningSign guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEError                   guifg=#c5152f ctermfg=160  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarning                 guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi ALEErrorSign               guifg=#c5152f ctermfg=160  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarningSign             guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+
+" Completion
+hi PMenu                      guifg=#282828 ctermfg=235  guibg=#767676 ctermbg=243  gui=NONE cterm=NONE
+hi PMenuSel                   guifg=#282828 ctermfg=235  guibg=#c9d05c ctermbg=185  gui=NONE cterm=NONE
+hi PmenuSbar                  guifg=#d3b987 ctermfg=180  guibg=#d3b987 ctermbg=180  gui=NONE cterm=NONE
+hi PmenuThumb                 guifg=#ffc24b ctermfg=215  guibg=#ffc24b ctermbg=215  gui=NONE cterm=NONE
+
+" visual
+hi Visual                     guifg=NONE    ctermfg=NONE guibg=#4e4e4e ctermbg=239  gui=NONE cterm=NONE
+hi VisualNOS                  guifg=NONE    ctermfg=NONE guibg=#4e4e4e ctermbg=239  gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
