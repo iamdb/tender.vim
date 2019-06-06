@@ -260,6 +260,8 @@ hi MatchParen guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold
 hi IncSearch  guifg=NONE ctermfg=NONE guibg=#6c6c6c ctermbg=242 gui=underline,bold cterm=underline,bold
 hi Search     guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=bold           cterm=bold
 
+hi CocErrorFloat guifg=#ff8787 ctermfg=210 guibg=#303030 ctermbg=236 gui=bold cterm=bold
+
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
 
