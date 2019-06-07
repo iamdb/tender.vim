@@ -246,21 +246,31 @@ hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cte
 hi ALEWarningSign guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Completion
-hi PMenu      guifg=#282828 ctermfg=235 guibg=#767676 ctermbg=243 gui=NONE cterm=NONE
-hi PMenuSel   guifg=#282828 ctermfg=235 guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
-hi PmenuSbar  guifg=#d3b987 ctermfg=180 guibg=#d3b987 ctermbg=180 gui=NONE cterm=NONE
-hi PmenuThumb guifg=#ffc24b ctermfg=215 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
+hi PMenu      guifg=#d0d0d0 ctermfg=252  guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
+hi PMenuSel   guifg=#87d7ff ctermfg=117  guibg=#4e4e4e ctermbg=239  gui=bold cterm=bold
+hi PmenuThumb guifg=NONE    ctermfg=NONE guibg=#3a3a3a ctermbg=237  gui=NONE cterm=NONE
+hi PmenuSbar  guifg=NONE    ctermfg=NONE guibg=#3a3a3a ctermbg=237  gui=NONE cterm=NONE
 
 " visual
 hi Visual    guifg=NONE ctermfg=NONE guibg=#4e4e4e ctermbg=239 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#4e4e4e ctermbg=239 gui=NONE cterm=NONE
 
 " match
-hi MatchParen guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi IncSearch  guifg=NONE ctermfg=NONE guibg=#6c6c6c ctermbg=242 gui=underline,bold cterm=underline,bold
-hi Search     guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=bold           cterm=bold
+hi MatchParen guifg=NONE ctermfg=NONE guibg=NONE    ctermbg=NONE gui=underline,bold cterm=underline,bold
+hi IncSearch  guifg=NONE ctermfg=NONE guibg=#6c6c6c ctermbg=242  gui=underline,bold cterm=underline,bold
+hi Search     guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238  gui=bold           cterm=bold
 
-hi CocErrorFloat guifg=#ff8787 ctermfg=210 guibg=#303030 ctermbg=236 gui=bold cterm=bold
+" coc.nvim
+hi CocErrorFloat       guifg=#d70087 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocErrorHighlight   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi CocWarningFloat     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocWarningHighlight guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+
+" ale
+hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarning     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
