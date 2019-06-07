@@ -261,7 +261,7 @@ hi IncSearch  guifg=NONE ctermfg=NONE guibg=#6c6c6c ctermbg=242  gui=underline,b
 hi Search     guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238  gui=bold           cterm=bold
 
 " coc.nvim
-hi CocErrorFloat       guifg=#d70087 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocErrorFloat       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocErrorHighlight   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi CocWarningFloat     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocWarningHighlight guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=bold cterm=bold
