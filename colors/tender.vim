@@ -236,8 +236,10 @@ hi rustMacro     guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cter
 hi rustAssert    guifg=#ffc24b ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustSuper     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustFuncName  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rustFuncCall  guifg=#00afd7 ctermfg=38  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustFuncCall  guifg=#00afff ctermfg=45  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustLifetime  guifg=#0000ff ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustType  guifg=#0000ff ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rustEnumVariant  guifg=#0000ff ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " ale
 hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
