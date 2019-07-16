@@ -16,8 +16,6 @@ let g:colors_name="tender"
 
 hi ColorColumn                  guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE           cterm=NONE
 hi CursorColumn                 guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE           cterm=NONE
-hi CursorLine                   guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE           cterm=NONE
-hi CursorLineNr                 guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi Directory                    guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi DiffAdd                      guifg=NONE    ctermfg=NONE guibg=#464632 ctermbg=238  gui=NONE           cterm=NONE
 hi DiffChange                   guifg=NONE    ctermfg=NONE guibg=#335261 ctermbg=239  gui=NONE           cterm=NONE
@@ -27,7 +25,6 @@ hi ErrorMsg                     guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg
 hi VertSplit                    guifg=#282828 ctermfg=235  guibg=#282828 ctermbg=235  gui=NONE           cterm=NONE
 hi Folded                       guifg=#666666 ctermfg=242  guibg=#1d1d1d ctermbg=234  gui=NONE           cterm=NONE
 hi FoldColumn                   guifg=#666666 ctermfg=242  guibg=#1d1d1d ctermbg=234  gui=NONE           cterm=NONE
-hi LineNr                       guifg=#444444 ctermfg=238  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi NonText                      guifg=#444444 ctermfg=238  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi Normal                       guifg=#eeeeee ctermfg=255  guibg=#282828 ctermbg=235  gui=NONE           cterm=NONE
 hi Question                     guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
@@ -270,6 +267,11 @@ hi CocErrorSign        guifg=#c5152f ctermfg=160 guibg=NONE    ctermbg=NONE gui=
 hi CocWarningFloat     guifg=#ffaf5f ctermfg=215 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi CocWarningHighlight guifg=#ffaf5f ctermfg=215 guibg=NONE    ctermbg=NONE gui=bold cterm=bold
 hi CocWarningSign      guifg=#ffaf5f ctermfg=215 guibg=NONE    ctermbg=NONE gui=bold cterm=bold
+
+" line
+hi CursorLine   guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE cterm=NONE
+hi CursorLineNr guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LineNr       guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " ale
 hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
