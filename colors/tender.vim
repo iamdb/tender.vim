@@ -133,14 +133,6 @@ hi markdownCodeDelimiter        guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg
 hi markdownCode                 guifg=#d3b987 ctermfg=180  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi markdownEscape               guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi markdownError                guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeHelp                 guifg=#eeeeee ctermfg=255  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeHelpKey              guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeHelpCommand          guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeHelpTitle            guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeUp                   guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeCWD                  guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeOpenable             guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi NERDTreeClosable             guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi pugJavascriptOutputChar      guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi GitGutterAdd                 guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi GitGutterChange              guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
@@ -278,6 +270,16 @@ hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cte
 hi ALEWarning     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ALEWarningSign guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" nerd
+hi NERDTreeHelp        guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeHelpKey     guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeHelpCommand guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeHelpTitle   guifg=#afd7ff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeUp          guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeCWD         guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeOpenable    guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeClosable    guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
