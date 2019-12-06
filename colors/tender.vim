@@ -211,6 +211,7 @@ hi rubyPseudoVariable         guifg=#00afd7 ctermfg=38   guibg=NONE    ctermbg=N
 hi rubyBlockParameterList     guifg=#ffc24b ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi rubyGlobalVariable         guifg=#c5152f ctermfg=160  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi rubyInstanceVariable       guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rubyOperator               guifg=#a8a8a8 ctermfg=248  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 
 " go
 hi goField        guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
