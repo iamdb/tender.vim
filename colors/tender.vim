@@ -208,7 +208,7 @@ hi yamlKeyValueDelimiter        guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg
 " ruby
 hi rubyInterpolationDelimiter guifg=#87d7d7 ctermfg=116  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi rubyPseudoVariable         guifg=#00afd7 ctermfg=38   guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
-hi rubyBlockParameterList     guifg=#ffc24b ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi rubyBlockParameterList     guifg=#ffd7af ctermfg=223  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi rubyGlobalVariable         guifg=#c5152f ctermfg=160  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi rubyInstanceVariable       guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi rubyOperator               guifg=#a8a8a8 ctermfg=248  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
