@@ -18,7 +18,7 @@ hi ColorColumn                  guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg
 hi CursorColumn                 guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE           cterm=NONE
 hi Directory                    guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi DiffAdd                      guifg=NONE    ctermfg=NONE guibg=#464632 ctermbg=238  gui=NONE           cterm=NONE
-hi DiffChange                   guifg=NONE    ctermfg=NONE guibg=#335261 ctermbg=239  gui=NONE           cterm=NONE
+hi DiffChange                   guifg=#ffd700 ctermfg=220  guibg=#ffd700 ctermbg=220  gui=NONE           cterm=NONE
 hi DiffDelete                   guifg=#f43753 ctermfg=203  guibg=#79313c ctermbg=237  gui=NONE           cterm=NONE
 hi DiffText                     guifg=NONE    ctermfg=7    guibg=NONE    ctermbg=NONE gui=NONE           cterm=reverse
 hi ErrorMsg                     guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=reverse        cterm=reverse
@@ -84,7 +84,7 @@ hi cssAttr                      guifg=#eeeeee ctermfg=255  guibg=NONE    ctermbg
 hi cssUnitDecorators            guifg=#eeeeee ctermfg=255  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi cssNoise                     guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi diffRemoved                  guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi diffChanged                  guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
+hi diffChanged                  guifg=#afd7ff ctermfg=220  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi diffAdded                    guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi diffSubname                  guifg=#9faa00 ctermfg=142  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi elmDelimiter                 guifg=#eeeeee ctermfg=255  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
