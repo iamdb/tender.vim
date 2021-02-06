@@ -283,7 +283,9 @@ hi NERDTreeCWD         guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=NON
 hi NERDTreeOpenable    guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable    guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-hi SignColumn          guifg=#eeeeee ctermfg=255  guibg=#282828 ctermbg=235  gui=NONE cterm=NONE
+hi SignColumn   guifg=#eeeeee ctermfg=255 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
+hi texMathZoneC guifg=#ffaf5f ctermfg=215 guibg=#262626 ctermbg=236 gui=NONE cterm=NONE
+hi texGreek     guifg=#ffaf5f ctermfg=215 guibg=#262626 ctermbg=236 gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
