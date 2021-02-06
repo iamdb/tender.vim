@@ -260,9 +260,9 @@ hi CocWarningHighlight guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=bol
 hi CocWarningSign      guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 
 " line
-hi CursorLine   guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE cterm=NONE
-hi CursorLineNr guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi LineNr       guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi CursorLine   guifg=NONE    ctermfg=NONE guibg=#3a3a3a ctermbg=237  gui=NONE cterm=NONE
+hi CursorLineNr guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=bold cterm=bold
+hi LineNr       guifg=#6c6c6c ctermfg=242  guibg=NONE    ctermbg=NONE gui=bold cterm=bold
 
 " ale
 hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -290,15 +290,15 @@ hi DiffDelete                  guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE
 hi GitGutterAdd                guifg=#87d700 ctermfg=112 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChange             guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete             guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterChangeDelete       guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDelete       guifg=#d75fff ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAddLine            guifg=#87d700 ctermfg=112 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeLine         guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDeleteLine         guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterChangeDeleteLine   guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDeleteLine   guifg=#d75fff ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAddLineNr          guifg=#464632 ctermfg=238 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi GitGutterChangeLineNr       guifg=#ffd700 ctermfg=220 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi GitGutterDeleteLineNr       guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi GitGutterChangeDeleteLineNr guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi GitGutterChangeDeleteLineNr guifg=#d75fff ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
