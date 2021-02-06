@@ -17,9 +17,6 @@ let g:colors_name="tender"
 hi ColorColumn                  guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE           cterm=NONE
 hi CursorColumn                 guifg=NONE    ctermfg=NONE guibg=#323232 ctermbg=236  gui=NONE           cterm=NONE
 hi Directory                    guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
-hi DiffAdd                      guifg=NONE    ctermfg=NONE guibg=#464632 ctermbg=238  gui=NONE           cterm=NONE
-hi DiffChange                   guifg=#ffd700 ctermfg=220  guibg=#ffd700 ctermbg=220  gui=NONE           cterm=NONE
-hi DiffDelete                   guifg=#f43753 ctermfg=203  guibg=#79313c ctermbg=237  gui=NONE           cterm=NONE
 hi DiffText                     guifg=NONE    ctermfg=7    guibg=NONE    ctermbg=NONE gui=NONE           cterm=reverse
 hi ErrorMsg                     guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=reverse        cterm=reverse
 hi VertSplit                    guifg=#282828 ctermfg=235  guibg=#282828 ctermbg=235  gui=NONE           cterm=NONE
@@ -286,6 +283,18 @@ hi NERDTreeClosable    guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NON
 hi SignColumn   guifg=#eeeeee ctermfg=255 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 hi texMathZoneC guifg=#ffaf5f ctermfg=215 guibg=#262626 ctermbg=236 gui=NONE cterm=NONE
 hi texGreek     guifg=#ffaf5f ctermfg=215 guibg=#262626 ctermbg=236 gui=NONE cterm=NONE
+
+hi DiffAdd                     guifg=#464632 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChange                  guifg=#ffd700 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffDelete                  guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterAddLine            guifg=#464632 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeLine         guifg=#ffd700 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterDeleteLine         guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDeleteLine   guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterAddLineNr          guifg=#464632 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeLineNr       guifg=#ffd700 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterDeleteLineNr       guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDeleteLineNr guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
