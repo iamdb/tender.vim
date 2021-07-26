@@ -53,7 +53,10 @@ hi TabLine        guifg=#999999 ctermfg=246  guibg=#444444 ctermbg=238  gui=NONE
 hi TabLineSel     guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi Title          guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi Todo           guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
+hi TSField        guifg=#d0d0d0 ctermfg=252  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
+hi TSFuncMacro    guifg=#00afff ctermfg=45   guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSParameter    guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
+hi TSNote         guifg=#ffd700 ctermfg=220  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi TSPunctBracket guifg=#999999 ctermfg=246  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSSymbol       guifg=#ffaf5f ctermfg=215  guibg=#262626 ctermbg=236  gui=NONE      cterm=NONE
 hi Type           guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
@@ -307,6 +310,9 @@ hi GitGutterChangeDeleteLineNr guifg=#d75fff ctermfg=171 guibg=NONE ctermbg=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
+
+" let g:terminal_color_1  = "#c5152f"
+" guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_0  = "#282828"
 let g:terminal_color_1  = "#f43753"
