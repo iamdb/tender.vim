@@ -58,7 +58,7 @@ hi TSFuncMacro    guifg=#00afff ctermfg=45   guibg=NONE    ctermbg=NONE gui=NONE
 hi TSParameter    guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSNote         guifg=#ffd700 ctermfg=220  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi TSPunctBracket guifg=#999999 ctermfg=246  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
-hi TSSymbol       guifg=#ffaf5f ctermfg=215  guibg=#262626 ctermbg=236  gui=NONE      cterm=NONE
+hi TSSymbol       guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi Type           guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi Underlined     guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=underline cterm=underline
 hi Variable       guifg=#eeeeee ctermfg=255  guibg=#282828 ctermbg=235  gui=NONE      cterm=NONE
