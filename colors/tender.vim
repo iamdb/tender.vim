@@ -104,6 +104,8 @@ hi gitcommitDiscardedType       guifg=#c5152f ctermfg=160 guibg=NONE    ctermbg=
 hi gitcommitSelectedType        guifg=#9faa00 ctermfg=142 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitHeader              guifg=#afd7ff ctermfg=153 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitUntrackedFile       guifg=#ffc24b ctermfg=215 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitFirstLine           guifg=#eeeeee ctermfg=255 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitSummary             guifg=#eeeeee ctermfg=255 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitDiscardedFile       guifg=#f43753 ctermfg=203 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedFile        guifg=#c9d05c ctermfg=185 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi helpHyperTextEntry           guifg=#c9d05c ctermfg=185 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
@@ -278,12 +280,6 @@ hi CursorLine   guifg=NONE    ctermfg=NONE guibg=#3a3a3a ctermbg=237  gui=NONE c
 hi CursorLineNr guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=bold cterm=bold
 hi LineNr       guifg=#6c6c6c ctermfg=242  guibg=NONE    ctermbg=NONE gui=bold cterm=bold
 
-" ale
-hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEWarning     guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEWarningSign guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-
 " nerd
 hi NERDTreeHelp        guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeHelpKey     guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -294,10 +290,11 @@ hi NERDTreeCWD         guifg=#5fd7ff ctermfg=81  guibg=NONE ctermbg=NONE gui=NON
 hi NERDTreeOpenable    guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable    guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-hi SignColumn   guifg=#eeeeee ctermfg=255 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 hi texMathZoneC guifg=#ffaf5f ctermfg=215 guibg=#262626 ctermbg=236 gui=NONE cterm=NONE
 hi texGreek     guifg=#ffaf5f ctermfg=215 guibg=#262626 ctermbg=236 gui=NONE cterm=NONE
 
+" git
+hi SignColumn   guifg=#eeeeee ctermfg=255 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 hi DiffAdd                     guifg=#87d700 ctermfg=112 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange                  guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete                  guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -316,6 +313,16 @@ hi GitGutterChangeDeleteLineNr guifg=#d75fff ctermfg=171 guibg=NONE ctermbg=NONE
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
+
+" lsp
+hi LspDiagnosticDefaultError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi LspDiagnosticDefaultWarning     guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+
+" ale
+hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ALEWarning     guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ALEErrorSign   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ALEWarningSign guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 
 " let g:terminal_color_1  = "#c5152f"
 " guifg=#ff8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
