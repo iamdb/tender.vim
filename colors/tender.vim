@@ -53,12 +53,13 @@ hi TabLine        guifg=#999999 ctermfg=246  guibg=#444444 ctermbg=238  gui=NONE
 hi TabLineSel     guifg=#c9d05c ctermfg=185  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi Title          guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi Todo           guifg=#f43753 ctermfg=203  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
-hi TSField        guifg=#d0d0d0 ctermfg=252  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
+hi TSField        guifg=#afd7ff ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSFuncMacro    guifg=#00afff ctermfg=45   guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
-hi TSParameter    guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSNote         guifg=#ffd700 ctermfg=220  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
+hi TSParameter    guifg=#ffc24b ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSPunctBracket guifg=#999999 ctermfg=246  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi TSSymbol       guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
+hi TSWarning      guifg=#ffaf5f ctermfg=215  guibg=NONE    ctermbg=NONE gui=bold      cterm=bold
 hi Type           guifg=#5fd7ff ctermfg=81   guibg=NONE    ctermbg=NONE gui=NONE      cterm=NONE
 hi Underlined     guifg=NONE    ctermfg=NONE guibg=NONE    ctermbg=NONE gui=underline cterm=underline
 hi Variable       guifg=#eeeeee ctermfg=255  guibg=#282828 ctermbg=235  gui=NONE      cterm=NONE
@@ -193,6 +194,11 @@ hi stylusImport                 guifg=#ffc24b ctermfg=215 guibg=NONE    ctermbg=
 hi vimCommentString             guifg=#715b2f ctermfg=58  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommentTitle              guifg=#44778d ctermfg=66  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi vimError                     guifg=#eeeeee ctermfg=255 guibg=#f43753 ctermbg=203  gui=NONE cterm=NONE
+hi vimMapLhs                    guifg=#ffc24b ctermfg=215 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi vimUsrCmd                    guifg=#d7d787 ctermfg=186 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi vimSetEqual                  guifg=#5fd7ff ctermfg=81  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi vimIsCommand                 guifg=#5fd7ff ctermfg=81  guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
+hi vimAutoCmdSfxList            guifg=#87d7d7 ctermfg=116 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi xmlNamespace                 guifg=#ffc24b ctermfg=215 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi xmlAttribPunct               guifg=#f43753 ctermfg=203 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
 hi xmlProcessingDelim           guifg=#f43753 ctermfg=203 guibg=NONE    ctermbg=NONE gui=NONE cterm=NONE
