@@ -315,8 +315,11 @@ let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
 
 " lsp
-hi LspDiagnosticDefaultError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi LspDiagnosticDefaultWarning     guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi LspDiagnosticDefaultError   guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi LspDiagnosticDefaultWarning guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi LspInlay                    guifg=#af87af ctermfg=139 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi IndentBlanklineContextChar  guifg=#ffffd7 ctermfg=230 guibg=NONE ctermbg=NONE gui=nocombine cterm=nocombine
+hi ExtraWhitespace             guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold      cterm=bold
 
 " ale
 hi ALEError       guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
